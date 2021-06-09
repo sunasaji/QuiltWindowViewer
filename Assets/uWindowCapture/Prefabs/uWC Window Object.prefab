@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 65083943844815220}
   - component: {fileID: 114000013686570872}
   - component: {fileID: 114203295424323036}
+  - component: {fileID: 4024197847686755099}
+  - component: {fileID: 2351261236575340960}
   m_Layer: 0
   m_Name: uWC Window Object
   m_TagString: Untagged
@@ -61,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1ebb28175c99f574d895870a01e00d21, type: 2}
+  - {fileID: 2100000, guid: f00219c8e9a4cfd4b8952a96e464fa97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,3 +139,112 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0aadff77bae0d04caf917b138266088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!20 &4024197847686755099
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013424883394}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &2351261236575340960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013424883394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de313519d88fe64f97b9e99db9c6c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clearFlags: 2
+  background: {r: 0, g: 0, b: 0, a: 1}
+  cullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  size: 5
+  depth: 0
+  renderingPath: -1
+  occlusionCulling: 1
+  allowHDR: 1
+  allowMSAA: 1
+  allowDynamicResolution: 0
+  displayTarget: 0
+  targetDisplay: 0
+  preview2D: 0
+  emulatedDevice: 0
+  fov: 14
+  nearClipFactor: 0.5
+  farClipFactor: 4
+  scaleFollowsSize: 0
+  viewconeModifier: 1
+  centerOffset: 0
+  horizontalFrustumOffset: 0
+  verticalFrustumOffset: 0
+  useFrustumTarget: 0
+  frustumTarget: {fileID: 0}
+  quiltPreset: -1
+  customQuiltSettings:
+    quiltWidth: 3360
+    quiltHeight: 3360
+    viewColumns: 8
+    viewRows: 6
+    numViews: 48
+    aspect: 0.75
+    overscan: 0
+  screenshot2DKey: 290
+  screenshotQuiltKey: 291
+  overrideQuilt: {fileID: 8400000, guid: 26314967f460d7e4d9e6e7d296b0766b, type: 2}
+  renderOverrideBehind: 0
+  quiltRT: {fileID: 0}
+  frustumColor: {r: 0, g: 1, b: 0, a: 1}
+  middlePlaneColor: {r: 0.5882353, g: 0.19607843, b: 1, a: 1}
+  handleColor: {r: 0.29411766, g: 0.39215687, b: 1, a: 1}
+  drawHandles: 1
+  onHoloplayReady:
+    m_PersistentCalls:
+      m_Calls: []
+  onViewRender:
+    m_PersistentCalls:
+      m_Calls: []
+  viewInterpolation: 0
+  reduceFlicker: 0
+  fillGaps: 0
+  blendViews: 0
