@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 114203295424323036}
   - component: {fileID: 4024197847686755099}
   - component: {fileID: 2351261236575340960}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: uWC Window Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
